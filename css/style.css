@@ -33,6 +33,7 @@ div.first_col_right {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
 }
 
 div.button {
@@ -60,20 +61,14 @@ div.row_main {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-}
-
-div.column_main {
-    width: calc(100% / 7 - 20px);
-    height: 900px;
-    margin: 0px 10px;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 div.card {
-    width: 100%;
-    height: calc(100% / 5 - 20px);
-    margin: 10px 0px;
+    width: calc(100% / 7 - 30px);
+    height: 200px;
+    margin: 10px 5px;
     background-image: url("https://picsum.photos/id/237/200/300");
     background-repeat: no-repeat;
     background-size: cover;
